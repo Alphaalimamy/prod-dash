@@ -1,0 +1,21 @@
+.main-container {
+    display: flex;
+
+}
+
+.sidebar-container {
+    background-color: blueviolet;
+    width: 15rem;
+    transition: all ease-in-out 1.5s;
+}
+
+.right-container {
+    flex: 1;
+}
+
+
+@media screen and (max-width: 768px) {
+    .sidebar-container {
+        width: 5rem;
+    }
+}
