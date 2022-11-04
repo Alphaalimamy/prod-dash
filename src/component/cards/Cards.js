@@ -1,12 +1,12 @@
 import React from 'react'
 import { cardsData } from '../../data'
-import Card from './Card'
+import Card from './Card';
+
 
 const Cards = () => {
   return (
-    <div>
+    <div className='card'>
       {cardsData.map((card, id) => {
-        
         return (
           <div className="parentContainer" key={id}>
             <Card

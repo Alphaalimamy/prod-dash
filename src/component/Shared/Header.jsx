@@ -13,7 +13,7 @@ const Header = () => {
       </Link>
 
       <div className="right-header">
-        <div className="right_header_acc">
+        <div className="right_header_acc" onClick={() => setUser(!user)}>
           {user ? (<Link to="/">
             <FaIcons.FaUserCircle />
             <span>Alpha</span>

@@ -1,13 +1,15 @@
 import React from 'react'
-import Toggle from '../../Toggle'
+import Cards from '../cards/Cards'
+import ProductTable from '../table/Table'
+
+
 
 
 const Dashboard = () => {
   return (
-    <div>
-
-      <Toggle/>
-      <div></div>
+    <div className='dashboard'>
+      <Cards/>
+      <ProductTable/>
     </div>
   )
 }
